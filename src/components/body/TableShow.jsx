@@ -60,13 +60,13 @@ export default function TableShow() {
                 <Box
                     sx={{
                         mt: 2,
-                        display: { xs: 'block', sm: 'flex' },
+                        display: { xs: "block", sm: "flex", md: "flex" },
                         alignItems: "center",
                         justifyContent: "space-between",
                     }}
                 >
                     <Grid container spacing={2}>
-                        <Grid item xs={12} sm={6} md={4.5}>
+                        <Grid item xs={12} sm={12} md={4.5}>
                             {" "}
                             <FormControl
                                 sx={{ m: 1, width: "25ch" }}
@@ -91,7 +91,7 @@ export default function TableShow() {
                                 />
                             </FormControl>
                         </Grid>
-                        <Grid item xs={12} sm={6} md={4.5}>
+                        <Grid item xs={12} sm={12} md={4.5}>
                             <FormControl
                                 sx={{ m: 1, width: "25ch" }}
                                 variant="outlined"
@@ -115,11 +115,11 @@ export default function TableShow() {
                                 />
                             </FormControl>
                         </Grid>
-                        <Grid item xs={12} sm={6} md={3}></Grid>
+                        <Grid item xs={12} sm={12} md={3}></Grid>
                     </Grid>
                     <Grid container spacing={2} alignItems="center">
-                        <Grid item xs={12} sm={6} md={3}></Grid>
-                        <Grid item xs={12} sm={6} md={4.5}>
+                        <Grid item xs={12} sm={12} md={3}></Grid>
+                        <Grid item xs={12} sm={12} md={4.5}>
                             {" "}
                             <TextField
                                 sx={{ minWidth: "230px" }}
@@ -139,7 +139,7 @@ export default function TableShow() {
                                 ))}
                             </TextField>
                         </Grid>
-                        <Grid item xs={12} sm={6} md={4.5}>
+                        <Grid item xs={12} sm={12} md={4.5}>
                             <FormControl fullWidth sx={{ m: 1 }}>
                                 <OutlinedInput
                                     id="outlined-adornment-amount"

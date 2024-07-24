@@ -236,7 +236,8 @@ export default function TableData() {
                                     {row.no}
                                 </StyledTableCell>
                                 <StyledTableCell align="right">
-                                    {row.date}
+                                    {row.date} <br />{" "}
+                                    <span style={{ color: "grey" }}>12:20</span>
                                 </StyledTableCell>
                                 <StyledTableCell align="right">
                                     {row.name}
