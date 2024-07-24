@@ -175,7 +175,7 @@ export default function TableData() {
             <TableContainer
                 component={Paper}
                 sx={{
-                    borderRadius: "20px 20px 0 0",
+                    borderRadius: "20px 20px 20px 20px",
                     overflowX: "auto", // Enable horizontal scrolling
                     overflowY: "hidden", // Hide vertical scrollbar if not needed
                 }}

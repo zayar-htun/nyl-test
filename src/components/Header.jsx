@@ -10,7 +10,7 @@ export default function Header() {
             <Box
                 sx={{
                     mx: 4,
-                    mt: 0.5,
+                    mt: 1,
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "space-between",

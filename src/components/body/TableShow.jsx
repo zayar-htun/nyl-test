@@ -244,6 +244,7 @@ export default function TableShow() {
                 <Box sx={{ mt: 4 }}>
                     <TableData />
                 </Box>
+                <Divider sx={{mt:1}}/>
                 <Box sx={{ mt: 1 }}>
                     <TablePegi />
                 </Box>
